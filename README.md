@@ -37,5 +37,5 @@
 </h2>
 
 <div align="center">
-  <img src="https://preview.ibb.co/bQfdLK/Screenshot_20180904_154042.jpg"/>
+  <img src="https://preview.ibb.co/bQfdLK/Screenshot_20180904_154042.jpg" height="540"/>
 </div>
