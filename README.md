@@ -1,10 +1,13 @@
 <h1 align="center">Taskist</h1>
 
 <h2 align="center">
- Taskist is a ToDo List app for Task Management inspired by the design below \n
- 
+ Taskist is a ToDo List app for Task Management inspired by the design below
+</h2>
+
+<h2 align="center">
  The app is using Firebase, you have to configure it from your side to test the app
 </h2>
+
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT">
