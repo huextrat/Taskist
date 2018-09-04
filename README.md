@@ -32,3 +32,10 @@
   <img src="https://media.giphy.com/media/1wpPvwtUU2yuqYlqmx/giphy.gif"/>
 </div>
 
+<h2 align="center">
+  <strong>Taskist WIP</strong>
+</h2>
+
+<div align="center">
+  <img src="https://preview.ibb.co/bQfdLK/Screenshot_20180904_154042.jpg"/>
+</div>
