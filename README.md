@@ -24,9 +24,9 @@
 </div>
 
 
-<div align="center">
+<h2 align="center">
   <strong>UI Design</strong>
-</div>
+</h2>
 
 <div align="center">
   <img src="https://media.giphy.com/media/1wpPvwtUU2yuqYlqmx/giphy.gif"/>
