@@ -1,5 +1,9 @@
 <h1 align="center">Taskist</h1>
 
+<h2 align="center">
+ Taskist is a ToDo List app for Task Management inspired by the design below
+</h2>
+
 <div align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=for-the-badge" alt="License MIT" />
