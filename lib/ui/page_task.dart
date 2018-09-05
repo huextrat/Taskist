@@ -162,7 +162,7 @@ class _TaskPageState extends State<TaskPage> with SingleTickerProviderStateMixin
                 },
                 child: new StreamBuilder<QuerySnapshot>(
                     stream: Firestore.instance
-                        .collection(widget.user.uid)
+                        .collection(widget.user.uid).orderBy("date", descending: true)
                         .snapshots(),
                     builder: (BuildContext context,
                         AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -200,7 +200,7 @@ class _TaskPageState extends State<TaskPage> with SingleTickerProviderStateMixin
           if(b.runtimeType == bool){
             listElement.add(new ElementTask(a, b));
           }
-          if(b.runtimeType == String){
+          if(b.runtimeType == String && a == "color"){
             color = b;
           }
         });

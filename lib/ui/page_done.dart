@@ -130,7 +130,7 @@ class _DonePageState extends State<DonePage> with SingleTickerProviderStateMixin
           if(b.runtimeType == bool){
             listElement.add(new ElementTask(a, b));
           }
-          if(b.runtimeType == String){
+          if(b.runtimeType == String && a == "color"){
             cardColor.add(b);
           }
         });
