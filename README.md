@@ -8,6 +8,12 @@
  The app is using Firebase, you have to configure it from your side to test the app
 </h2>
 
+<h3 align="center">
+ Download it for Android now: <a href="https://play.google.com/store/apps/details?id=com.huextrat.taskist">
+      Taskist on Android
+    </a>
+</h3>
+
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -23,6 +29,7 @@
      <img src="https://img.shields.io/badge/Flutter-SDK-3BB9FF.svg?longCache=true&style=for-the-badge" alt="Flutter" />
   </a>
 </div>
+
 
 <div align="center">
   <h3>
