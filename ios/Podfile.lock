@@ -1,0 +1,206 @@
+PODS:
+  - BoringSSL (10.0.5):
+    - BoringSSL/Implementation (= 10.0.5)
+    - BoringSSL/Interface (= 10.0.5)
+  - BoringSSL/Implementation (10.0.5):
+    - BoringSSL/Interface (= 10.0.5)
+  - BoringSSL/Interface (10.0.5)
+  - cloud_firestore (0.0.1):
+    - Firebase/Auth
+    - Firebase/Core
+    - Firebase/Database
+    - Firebase/Firestore
+    - Flutter
+  - Firebase/AdMob (5.4.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.31.0)
+  - Firebase/Auth (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.2)
+  - Firebase/Core (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.0):
+    - FirebaseCore (= 5.0.5)
+  - Firebase/Database (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.2)
+  - Firebase/Firestore (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (= 0.12.5)
+  - Firebase/Messaging (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - firebase_admob (0.0.1):
+    - Firebase/AdMob
+    - Firebase/Core
+    - Flutter
+  - firebase_analytics (0.0.1):
+    - Firebase/Core
+    - Flutter
+  - firebase_auth (0.0.1):
+    - Firebase/Auth
+    - Firebase/Core
+    - Flutter
+  - firebase_core (0.0.1):
+    - Firebase/Core
+    - Flutter
+  - firebase_database (0.0.1):
+    - Firebase/Database
+    - Flutter
+  - firebase_messaging (0.0.1):
+    - Firebase/Core
+    - Firebase/Messaging
+    - Flutter
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.2):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (5.0.5):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (5.0.2):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseFirestore (0.12.5):
+    - FirebaseCore (~> 5.0)
+    - FirebaseFirestore/abseil-cpp (= 0.12.5)
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.18)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseFirestore/abseil-cpp (0.12.5):
+    - FirebaseCore (~> 5.0)
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.18)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - Flutter (1.0.0)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - gRPC (1.13.0):
+    - gRPC-RxLibrary (= 1.13.0)
+    - gRPC/Main (= 1.13.0)
+  - gRPC-Core (1.13.0):
+    - gRPC-Core/Implementation (= 1.13.0)
+    - gRPC-Core/Interface (= 1.13.0)
+  - gRPC-Core/Implementation (1.13.0):
+    - BoringSSL (~> 10.0)
+    - gRPC-Core/Interface (= 1.13.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.13.0)
+  - gRPC-ProtoRPC (1.13.0):
+    - gRPC-ProtoRPC/Main (= 1.13.0)
+  - gRPC-ProtoRPC/Main (1.13.0):
+    - gRPC (= 1.13.0)
+    - gRPC-RxLibrary (= 1.13.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.13.0)
+  - gRPC/Main (1.13.0):
+    - gRPC-Core (= 1.13.0)
+    - gRPC-RxLibrary (= 1.13.0)
+  - GTMSessionFetcher/Core (1.1.15)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.6.0)
+
+DEPENDENCIES:
+  - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
+  - firebase_admob (from `.symlinks/plugins/firebase_admob/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_database (from `.symlinks/plugins/firebase_database/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BoringSSL
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseFirestore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - Google-Mobile-Ads-SDK
+    - GoogleToolboxForMac
+    - gRPC
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - Protobuf
+
+EXTERNAL SOURCES:
+  cloud_firestore:
+    :path: ".symlinks/plugins/cloud_firestore/ios"
+  firebase_admob:
+    :path: ".symlinks/plugins/firebase_admob/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_database:
+    :path: ".symlinks/plugins/firebase_database/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  BoringSSL: cf3f1793eb6e3c445c4d150456341f149c268a35
+  cloud_firestore: a2d49d9c7219fce31033eb1a2ee953d7733c91d6
+  Firebase: d66f4f29c23f22d96808d9abc174d81d8eee968f
+  firebase_admob: b8cc46113ddf88a62fec340e9446607a5061a872
+  firebase_analytics: fcc60a9de4b8e07aa5af8941303a7f5fe6e0383f
+  firebase_auth: 27a5a77a032d557c18f8e223aaf8ec1368f6cdbc
+  firebase_core: c96aa8b2fcf7f5167d32f22034f502f9304952b8
+  firebase_database: dd62ab9f71967c9011ce2fd03a89e762dcc364df
+  firebase_messaging: a5f5d4a9491b660f33a1f94bd0596558f820bad1
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseAuth: 096e457cdd4274412a66c4a35874787e411f5a03
+  FirebaseCore: 42b3267233bd21a5abd54117ccc38ca3dd0f8e83
+  FirebaseDatabase: 27be5ac5bc75e0b17537b2bbfada8258addcc8cd
+  FirebaseFirestore: b041e4a94601e18e82a863e0dcfa9d3e55cc2031
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  gRPC: 81b990caa01d7c32605d300c2ffd1b5ba0ef9e49
+  gRPC-Core: a56b086a8ef5ced6f6ba5be5bc0a63fca185015a
+  gRPC-ProtoRPC: 842797fbe05dfcf891afb4a5048e5ccf5f06ef86
+  gRPC-RxLibrary: fa6852f98d6ec0b73c0ec2f6406c26943099d501
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+
+PODFILE CHECKSUM: 7765ea4305eaab0b3dfd384c7de11902aa3195fd
+
+COCOAPODS: 1.5.3

@@ -22,12 +22,21 @@ dev_dependencies:
   firebase_auth: ^0.5.12
   firebase_database: ^1.0.1
   firebase_messaging: ^1.0.3
-  cloud_firestore: ^0.7.3
+  cloud_firestore: ^0.7.4
 
   font_awesome_flutter:
 
   flutter_colorpicker: ^0.0.7
+  flutter_slidable: ^0.4.1
+
+  url_launcher: ^3.0.3
+  share: ^0.5.2
+  launch_review: ^1.0.1
 
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/list.png
