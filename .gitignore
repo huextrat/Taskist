@@ -15,3 +15,9 @@ doc/api/
 android/app/google-services\.json
 
 ios/Runner/GoogleService-Info\.plist
+
+android/app/key\.jks
+
+android/app/proguard-rules\.pro
+
+android/key\.properties
