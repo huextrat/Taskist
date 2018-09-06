@@ -331,7 +331,14 @@ class _DetailPageState extends State<DetailPage> {
                                     color: Colors.red,
                                     icon: Icons.delete,
                                     onTap: () {
-                                      setState(() {});
+                                        Firestore.instance
+                                            .collection(widget.user.uid)
+                                            .document(widget.currentList.keys
+                                            .elementAt(widget.i))
+                                            .updateData({
+                                          listElement.elementAt(i).name:
+                                          ""
+                                        });
                                     },
                                   ),
                                 ],
