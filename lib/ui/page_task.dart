@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:taskist/model/element.dart';
 import 'package:taskist/ui/page_detail.dart';
 
-import 'new_task.dart';
+import 'page_addlist.dart';
 
 class TaskPage extends StatefulWidget {
   final FirebaseUser user;
