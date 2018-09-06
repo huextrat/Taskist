@@ -46,5 +46,5 @@
 </h2>
 
 <div align="center">
-  <img src="https://image.ibb.co/g33WvK/Screenshot_20180906_114207.jpg" height="540"/>
+  <img src="https://media.giphy.com/media/bcKj48rvx7fPIj4ifS/giphy.gif" height="540"/>
 </div>
