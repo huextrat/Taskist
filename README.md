@@ -42,7 +42,7 @@
 </div>
 
 <h2 align="center">
-  <strong>Taskist WIP</strong>
+  <strong>Taskist</strong>
 </h2>
 
 <div align="center">
