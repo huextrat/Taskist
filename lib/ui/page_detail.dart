@@ -254,8 +254,9 @@ class _DetailPageState extends State<DetailPage> {
                   padding: EdgeInsets.only(top: 30.0),
                   child: Column(
                     children: <Widget>[
+                      Container(color: Color(0xFFFCFCFC),child:
                       SizedBox(
-                        height: MediaQuery.of(context).size.height - 270,
+                        height: MediaQuery.of(context).size.height - 350,
                         child: ListView.builder(
                             physics: const BouncingScrollPhysics(),
                             itemCount: listElement.length,
@@ -278,7 +279,7 @@ class _DetailPageState extends State<DetailPage> {
                                     height: 50.0,
                                     color: listElement.elementAt(i).isDone
                                         ? Color(0xFFF0F0F0)
-                                        : Colors.white,
+                                        : Color(0xFFFCFCFC),
                                     child: Padding(
                                       padding: EdgeInsets.only(left: 50.0),
                                       child: Row(
@@ -344,7 +345,7 @@ class _DetailPageState extends State<DetailPage> {
                                 ],
                               );
                             }),
-                      ),
+                      ),),
                     ],
                   ),
                 ),

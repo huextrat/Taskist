@@ -27,7 +27,7 @@ class _SettingsPageState extends State<SettingsPage>
 
   rateApp() async {
     LaunchReview.launch(
-        androidAppId: "com.huextrat.taskist", iOSAppId: "");
+        androidAppId: "com.huextrat.taskist", iOSAppId: "1435481664");
   }
 
   _launchURL() async {

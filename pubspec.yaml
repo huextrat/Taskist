@@ -1,7 +1,7 @@
 name: taskist
 description: Task List App
 
-version: 0.9.1+2
+version: 0.9.2+4
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
@@ -32,6 +32,8 @@ dev_dependencies:
   url_launcher: ^3.0.3
   share: ^0.5.3
   launch_review: ^1.0.1
+
+  modal_progress_hud: ^0.1.0
 
 flutter:
 
