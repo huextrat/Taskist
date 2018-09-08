@@ -107,7 +107,7 @@ class _SettingsPageState extends State<SettingsPage>
                         color: Colors.grey,
                       ),
                       title: Text("Version"),
-                      trailing: Text("0.9.1"),
+                      trailing: Text("0.9.2"),
                     ),
                     ListTile(
                       onTap: _launchURL,
