@@ -162,10 +162,15 @@ class _DetailPageState extends State<DetailPage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
-                      new Text(
-                        widget.currentList.keys.elementAt(widget.i),
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 35.0),
+                      Flexible(
+                        fit: FlexFit.loose,
+                        child: Text(
+                          widget.currentList.keys.elementAt(widget.i),
+                          softWrap: true,
+                          overflow: TextOverflow.fade,
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 35.0),
+                        ),
                       ),
                       GestureDetector(
                         onTap: () {
