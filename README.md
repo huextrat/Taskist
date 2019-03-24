@@ -9,8 +9,12 @@
 </h2>
 
 <h3 align="center">
- Download it for Android now: <a href="https://play.google.com/store/apps/details?id=com.huextrat.taskist">
+ Download it on Android now: <a href="https://play.google.com/store/apps/details?id=com.huextrat.taskist">
       Taskist on Android
+    </a>
+ <br>
+ Download it on iOS now: <a href="https://itunes.apple.com/fr/app/taskist/id1435481664">
+      Taskist on iOS
     </a>
 </h3>
 
