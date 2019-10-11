@@ -44,17 +44,17 @@ class _TaskPageState extends State<TaskPage>
                     ),
                     Expanded(
                         flex: 2,
-                        child: new Row(
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Text(
                               'Task',
-                              style: new TextStyle(
+                              style: TextStyle(
                                   fontSize: 30.0, fontWeight: FontWeight.bold),
                             ),
                             Text(
                               'Lists',
-                              style: new TextStyle(
+                              style: TextStyle(
                                   fontSize: 28.0, color: Colors.grey),
                             )
                           ],
@@ -71,16 +71,16 @@ class _TaskPageState extends State<TaskPage>
               ),
               Padding(
                 padding: EdgeInsets.only(top: 50.0),
-                child: new Column(
+                child: Column(
                   children: <Widget>[
-                    new Container(
+                    Container(
                       width: 50.0,
                       height: 50.0,
-                      decoration: new BoxDecoration(
-                          border: new Border.all(color: Colors.black38),
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.black38),
                           borderRadius: BorderRadius.all(Radius.circular(7.0))),
-                      child: new IconButton(
-                        icon: new Icon(Icons.add),
+                      child: IconButton(
+                        icon: Icon(Icons.add),
                         onPressed: _addTaskPressed,
                         iconSize: 30.0,
                       ),
@@ -104,7 +104,7 @@ class _TaskPageState extends State<TaskPage>
                 onNotification: (overscroll) {
                   overscroll.disallowGlow();
                 },
-                child: new StreamBuilder<QuerySnapshot>(
+                child: StreamBuilder<QuerySnapshot>(
                     stream: Firestore.instance
                         .collection(widget.user.uid)
                         .orderBy("date", descending: true)
@@ -112,11 +112,11 @@ class _TaskPageState extends State<TaskPage>
                     builder: (BuildContext context,
                         AsyncSnapshot<QuerySnapshot> snapshot) {
                       if (!snapshot.hasData)
-                        return new Center(
+                        return Center(
                             child: CircularProgressIndicator(
                           backgroundColor: Colors.blue,
                         ));
-                      return new ListView(
+                      return ListView(
                         physics: const BouncingScrollPhysics(),
                         padding: EdgeInsets.only(left: 40.0, right: 40.0),
                         scrollDirection: Axis.horizontal,
@@ -140,7 +140,7 @@ class _TaskPageState extends State<TaskPage>
     List<ElementTask> listElement = new List(), listElement2;
     Map<String, List<ElementTask>> userMap = new Map();
 
-    List<String> cardColor = new List();
+    List<String> cardColor = List();
 
     if (widget.user.uid.isNotEmpty) {
       cardColor.clear();
@@ -149,13 +149,13 @@ class _TaskPageState extends State<TaskPage>
         String color;
         f.data.forEach((a, b) {
           if (b.runtimeType == bool) {
-            listElement.add(new ElementTask(a, b));
+            listElement.add(ElementTask(a, b));
           }
           if (b.runtimeType == String && a == "color") {
             color = b;
           }
         });
-        listElement2 = new List<ElementTask>.from(listElement);
+        listElement2 = List<ElementTask>.from(listElement);
         for (int i = 0; i < listElement2.length; i++) {
           if (listElement2.elementAt(i).isDone == false) {
             userMap[f.documentID] = listElement2;
@@ -170,12 +170,12 @@ class _TaskPageState extends State<TaskPage>
         listElement.clear();
       }).toList();
 
-      return new List.generate(userMap.length, (int index) {
-        return new GestureDetector(
+      return List.generate(userMap.length, (int index) {
+        return GestureDetector(
           onTap: () {
             Navigator.of(context).push(
-              new PageRouteBuilder(
-                pageBuilder: (_, __, ___) => new DetailPage(
+              PageRouteBuilder(
+                pageBuilder: (_, __, ___) => DetailPage(
                       user: widget.user,
                       i: index,
                       currentList: userMap,
@@ -183,8 +183,8 @@ class _TaskPageState extends State<TaskPage>
                     ),
                 transitionsBuilder:
                     (context, animation, secondaryAnimation, child) =>
-                        new ScaleTransition(
-                          scale: new Tween<double>(
+                        ScaleTransition(
+                          scale: Tween<double>(
                             begin: 1.5,
                             end: 1.0,
                           ).animate(
@@ -339,12 +339,12 @@ class _TaskPageState extends State<TaskPage>
 
   void _addTaskPressed() async {
     Navigator.of(context).push(
-      new PageRouteBuilder(
-        pageBuilder: (_, __, ___) => new NewTaskPage(
+      PageRouteBuilder(
+        pageBuilder: (_, __, ___) => NewTaskPage(
               user: widget.user,
             ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) =>
-            new ScaleTransition(
+            ScaleTransition(
               scale: new Tween<double>(
                 begin: 1.5,
                 end: 1.0,
@@ -381,7 +381,7 @@ class _TaskPageState extends State<TaskPage>
   }
 
   Padding _getToolbar(BuildContext context) {
-    return new Padding(
+    return Padding(
       padding: EdgeInsets.only(top: 50.0, left: 20.0, right: 20.0),
       child:
       new Row(mainAxisAlignment: MainAxisAlignment.center, children: [
