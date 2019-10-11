@@ -40,7 +40,7 @@ class TaskistApp extends StatelessWidget {
       home: HomePage(
         user: _currentUser,
       ),
-      theme: new ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.blue),
     );
   }
 }
@@ -70,12 +70,12 @@ class _HomePageState extends State<HomePage>
         fixedColor: Colors.deepPurple,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-              icon: new Icon(FontAwesomeIcons.calendarCheck),
-              title: new Text("")),
+              icon: Icon(FontAwesomeIcons.calendarCheck),
+              title: Text("")),
           BottomNavigationBarItem(
-              icon: new Icon(FontAwesomeIcons.calendar), title: new Text("")),
+              icon: Icon(FontAwesomeIcons.calendar), title: Text("")),
           BottomNavigationBarItem(
-              icon: new Icon(FontAwesomeIcons.slidersH), title: new Text(""))
+              icon: Icon(FontAwesomeIcons.slidersH), title: Text(""))
         ],
       ),
       body: _children[_currentIndex],
